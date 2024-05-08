@@ -1,0 +1,145 @@
+/* 中文字体 */
+@font-face {
+    font-family: 'pretty';
+    src: url('~/assets/fonts/ZhuZiAWan2.woff2') format('woff2');
+}
+
+/* 字体图标 - 纯色 */
+@font-face {
+    font-family: "yypure";
+    src: url('~/assets/fonts/YYFPURE.woff2?t=1697682062077') format('woff2');
+  }
+  
+  .yyp {
+    font-family: "yypure" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .yy-emoji:before {
+    content: "\e78d";
+  }
+  
+  .yy-emoji-flash:before {
+    content: "\e78e";
+  }
+  
+  .yy-prize:before {
+    content: "\e610";
+  }
+  
+  .yy-rss-round:before {
+    content: "\e602";
+  }
+  
+  .yy-thumbs-up:before {
+    content: "\e651";
+  }
+  
+  .yy-arrow-down:before {
+    content: "\e62d";
+  }
+  
+  .yy-delete:before {
+    content: "\e603";
+  }
+  
+  .yy-calendar:before {
+    content: "\e6a7";
+  }
+  
+  .yy-search-pure:before {
+    content: "\e606";
+  }
+  
+  .yy-menu:before {
+    content: "\100c1";
+  }
+  
+  /* 字体图标 - 彩色 */
+  @font-face {
+    font-family: "yycolor";
+    src: url('~/assets/fonts/YYFCOLOR.woff2?t=1697682054298') format('woff2');
+  }
+  
+  .yyc {
+    font-family: "yycolor" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .yy-rss:before {
+    content: "\e6b3";
+  }
+  
+  .yy-flower:before {
+    content: "\e66b";
+  }
+  
+  .yy-user:before {
+    content: "\e735";
+  }
+  
+  .yy-date:before {
+    content: "\100c0";
+  }
+  
+  .yy-sort:before {
+    content: "\e65e";
+  }
+  
+  .yy-fire:before {
+    content: "\e615";
+  }
+  
+  .yy-read:before {
+    content: "\e60f";
+  }
+  
+  .yy-heart:before {
+    content: "\e611";
+  }
+  
+  .yy-bear:before {
+    content: "\e782";
+  }
+  
+  .yy-search:before {
+    content: "\f297";
+  }
+  
+  .yy-notice:before {
+    content: "\e70d";
+  }
+  
+  .yy-leaf:before {
+    content: "\e601";
+  }
+  
+  .yy-tag:before {
+    content: "\f24b";
+  }
+  
+  .yy-link:before {
+    content: "\e706";
+  }
+  
+  .yy-home:before {
+    content: "\ffb9";
+  }
+  
+  .yy-message:before {
+    content: "\ffcb";
+  }
+  
+  .yy-edit:before {
+    content: "\100ac";
+  }
+  
+  .yy-comment:before {
+    content: "\100ae";
+  }

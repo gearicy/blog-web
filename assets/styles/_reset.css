@@ -1,0 +1,77 @@
+/* 重置浏览器的默认样式 */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'pretty';
+}
+
+html,
+body,
+div,
+header,
+footer,
+section,
+img,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li,
+img {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+input,
+button,
+textarea {
+    outline: none;
+    font-family: 'pretty';
+}
+
+/* 滚动条样式美化 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: skyblue;
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(255, 255, 255, 0.2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, 0.2) 50%,
+            rgba(255, 255, 255, 0.2) 75%,
+            transparent 75%,
+            transparent);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+    border-radius: 10px;
+}
+
+/* 阴影效果 */
+.shadow-box {
+    box-shadow: 0 1px 20px -6px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease;
+}
+
+.shadow-box:hover {
+    box-shadow: 0 1px 20px -2px rgba(0, 0, 0, 0.6);
+}

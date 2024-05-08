@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.5",
+    "@types/prismjs": "^1.26.0",
+    "@types/rss": "^0.0.31",
+    "nuxt": "^3.11.2",
+    "vite-plugin-prismjs": "^0.0.8"
+  },
+  "dependencies": {
+    "nitropack": "2.8.1",
+    "prismjs": "^1.29.0",
+    "rss": "^1.2.2"
+  }
+}
